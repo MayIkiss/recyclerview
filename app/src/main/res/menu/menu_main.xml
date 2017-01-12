@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wangguanghong.recyclerview.MainActivity">
+    <item
+        android:id="@+id/additem"
+        android:orderInCategory="100"
+        android:title="additem"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/deleteitem"
+        android:orderInCategory="100"
+        android:title="deleteitem"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/listview"
+        android:orderInCategory="100"
+        android:title="listview"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gridview"
+        android:orderInCategory="100"
+        android:title="gridview"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/staggerview"
+        android:orderInCategory="100"
+        android:title="staggerview"
+        app:showAsAction="never" />
+</menu>
